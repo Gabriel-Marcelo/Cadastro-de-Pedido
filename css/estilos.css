@@ -1,0 +1,14 @@
+/* SECTION */
+section{display: flex; flex-direction: column; align-items: center;}
+section form {width: 80%; display: flex; flex-direction: column;}
+.botao {width: 20%; align-self: center; cursor: pointer; padding: 10px; background-color: #cedef5;
+	font-weight: 700; border-radius: 4px}
+.botao:hover {background-color: #87b4f5; transition: all .50s ease-in-out;}
+.campos {border-radius: 4px; padding: 10px; border: 0.5px solid black; opacity: 0.4; font-weight: 900;}
+section h1 {font-weight: 700; font-size: 1.5em;}
+input[type=text]:focus {outline: 2px solid #92add1;}
+section select:focus {outline: 2px solid #92add1;}
+section label {font-weight: bold}
+
+
+

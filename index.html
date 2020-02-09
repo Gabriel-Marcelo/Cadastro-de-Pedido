@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Cadastro de Pedido</title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/header.css">
+		<link rel="stylesheet" type="text/css" href="css/estilos.css">
+		<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+		<script type="text/javascript" src="js/script.js"></script>
+	</head>
+	<body>
+		<header>	
+			<h1><a href="index.html">Cadastro de pedido</a></h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Fazer Pedido</a></li>
+						<li><a href="verPedido.html">Ver Pedido</a></li>
+					</ul>
+				</nav>		
+		</header>
+		<section>		
+			<h1>Pedido</h1>
+			<form>
+				<label>Escolha seu lanche:</label><br>
+				<select name="lanche" class="campos" onchange="setarPreco()">
+					<option value=""></option>
+					<option value="x-burguer">X-Burguer</option>
+					<option value="x-salada">X-Salada</option>
+					<option value="x-bacon">X-Bacon</option>
+				</select><br>
+				<label>Preço:</label><br>
+				<input disabled id="preco" type="text" name="preco" class="campos"><br>
+				<label>Quantidade:</label><br>
+				<input id="quantidade" type="text" class="campos"><br>
+				<button type="button" onclick="setarPedido()" class="botao">Pedir</button>
+			<form>
+		</section>
+	</body>
+</html>

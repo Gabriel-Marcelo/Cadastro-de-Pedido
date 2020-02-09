@@ -1,0 +1,8 @@
+/* HEADER */
+header{display: flex; justify-content: space-between;}
+header h1 {padding: 50px 25px;}
+header h1 a {font-weight: 700; font-size: 1.5em;}
+header li a:hover {color: #92add1;}
+header nav {padding: 50px 25px}
+header ul{display: flex;}
+header li:first-child {margin-right: 15px}
